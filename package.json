@@ -1,0 +1,23 @@
+{
+    "name": "Testing",
+    "version": "1.0.0",
+    "description": "Previewing amazing skills in unit testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Amine32/Unit-Testing.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Amine32/Unit-Testing/issues"
+    },
+    "homepage": "https://github.com/Amine32/Unit-Testing#readme",
+    "devDependencies": {
+        "jest": "^27.5.1"
+    }
+}

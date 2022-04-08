@@ -9,8 +9,7 @@ function order(words) {
             var match = [];
             match = words[i].match(/\d/g);
             if (match == null) {
-                if (words[i] != "")
-                    throw "Word must contain a single digit";
+                throw "Word must contain a single digit";
             } else if (match.length != 1)
                 throw "Word must contain a single digit";
         }

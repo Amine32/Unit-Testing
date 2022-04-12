@@ -19,5 +19,8 @@
     "homepage": "https://github.com/Amine32/Unit-Testing#readme",
     "devDependencies": {
         "jest": "^27.5.1"
+    },
+    "dependencies": {
+        "mysql2": "^2.3.3"
     }
 }

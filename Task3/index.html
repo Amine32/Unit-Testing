@@ -1,0 +1,33 @@
+<html>
+<header>
+    <title>Orders GUI</title>
+</header>
+
+<body>
+
+    <h1>Your order, please</h1>
+    <ul>
+        <li>Your task is to sort a given string. Each word in the string will contain a single number.</li>
+        <li>This number is the position the word should have in the result. Note: Numbers can be from 1 to 9. So 1 will be the first word (not 0).</li>
+        <li>If the input string is empty, return an empty string. The words in the input String will only contain valid consecutive numbers.</li>
+    </ul>
+
+    <input type="text" id="input" size="50"> <button onclick="submit()"> Submit </button>
+    <h2> Your order is: </h2>
+    <p id="output"></p>
+
+    <script>
+        function submit() {
+            try {
+                var input = document.getElementById("input").value;
+                document.getElementById("output").style.color = '#000';
+                document.getElementById("output").innerHTML = order(input);
+            } catch (err) {
+                document.getElementById("output").style.color = '#d00';
+                document.getElementById("output").innerHTML = "Error : " + err;
+            }
+        }
+    </script>
+</body>
+
+</html>

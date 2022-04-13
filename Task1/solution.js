@@ -46,4 +46,4 @@ function order(words) {
     return result.join(' ');
 }
 
-module.exports = order
+module.exports = order;

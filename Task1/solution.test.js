@@ -1,4 +1,4 @@
-const order = require('./solution')
+const order = require("./solution");
 
 describe('order input control', () => {
     it.each([

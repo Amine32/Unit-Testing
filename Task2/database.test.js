@@ -5,14 +5,14 @@ describe("Database Integration Test", () => {
     let connection;
 
     beforeEach(async() => {
-        let createTableSQL = "CREATE TABLE `sql11484914`.`orders` ( `id` INT(2) NULL AUTO_INCREMENT , `input` VARCHAR(100) NULL , `output` VARCHAR(100) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
+        let createTableSQL = "CREATE TABLE `sql11486350`.`orders` ( `id` INT(2) NULL AUTO_INCREMENT , `input` VARCHAR(100) NULL , `output` VARCHAR(100) NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
 
         connection = await createPool({
             host: "sql11.freemysqlhosting.net",
-            user: "sql11484914",
-            password: "Rm65meUv4H",
+            user: "sql11486350",
+            password: "dAVLeyX9D7",
             port: 3306,
-            database: "sql11484914",
+            database: "sql11486350",
         });
         console.log("Connected to database");
 

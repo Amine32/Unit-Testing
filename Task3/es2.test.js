@@ -18,4 +18,5 @@ test('should click around', async() => {
     await page.click('#btnSubmit');
     const finalText = await page.$eval('#output', el => el.textContent);
     expect(finalText).toBe("Эт1о од2ин из3 4многих тесто5в");
+    await browser.close();
 });
